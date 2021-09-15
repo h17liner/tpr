@@ -1,0 +1,11 @@
+host: 0.0.0.0  # uses for construct download urls.
+port: 3000
+
+storage:
+  type: fs                   # require
+  url: http://<some domain>/ # require. If static serv tpr, just fill like a http://ip:3000/
+  path: ./fs                 # require
+
+
+gpgpubkeys:
+  - <path to public key>
